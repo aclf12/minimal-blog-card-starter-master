@@ -32,7 +32,7 @@
 
 ## Overview
 
-![screenshot](./resource/Captura%20de%20tela%202025-06-28%20023848.png)
+![screenshot](./resources/desktop.png)
 
 This project is a solution to the Minimal Blog Card challenge from devChallenges.io. It's a simple, responsive blog card design. The main container adapts to different screen sizes, and the card's content is styled to be clean and minimal.
 
