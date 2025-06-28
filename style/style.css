@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+:root{
+    --background-primary: #FFFFFF;
+    --background-minimal: rgba(229, 234, 240, 0.3);
+    --background-divider: #E5EAF0;
+    --text-color-minimal: #7C19EE;
+    --text-color-primary: #394150;
+    --text-color-theme: #20293A;
+    --shadow-color: rgba(229, 234, 240, 0.8);
+}
+body{
+    background-color: var(--background-primary);
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--text-color-primary);
+}
+.container{
+    
+    width: 80vw;
+    margin: 13em auto;
+    border-radius: 15px;
+    box-shadow: 8px 8px 18px 0px var(--shadow-color);
+}
+
+@media screen and (min-width: 1024px) {
+    .container{   
+        width: 32vw;
+        margin: 35em auto;
+        border-radius: 15px;
+        box-shadow: 8px 8px 18px 0px var(--shadow-color);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .container{
+        width: 17vw;
+        margin: 20em auto;
+        border-radius: 15px;
+        box-shadow: 8px 8px 18px 0px var(--shadow-color);
+    }
+}
